@@ -1,0 +1,141 @@
+body {
+    font-family: 'Bitter', serif;
+    font-family: 'Gulzar', serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.flexible {
+    background-image: url(/images/bdflood.jpg);
+    background-size: cover;
+    background-position: 30%
+}
+
+.display {
+    text-align: center;
+    padding: 80px;
+
+}
+
+.display h1 {
+    font-size: 60px;
+    color: azure
+}
+
+.display p {
+    color: #fff;
+    text-align: center;
+}
+
+.display a {
+    color: #fff;
+    text-decoration: none;
+    background-color: coral;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.donate-today {
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+
+.donate-today p {
+    color: #707070;
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+    margin-left: 600px;
+    padding-bottom: 50px;
+
+
+
+}
+
+.flex-container div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    line-height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: rgb(26, 24, 24);
+    font-weight: bold;
+
+
+}
+
+#taka {
+    background-color: darksalmon;
+    color: dimgrey;
+    border: 2px solid saddlebrown;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.donate-today a {
+    color: #fff;
+    text-decoration: none;
+    background-color: coral;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.donate-plan {
+    text-align: center;
+    padding: 80px;
+}
+
+.donate-plan p {
+    color: #707070;
+}
+
+.plan-box {
+    display: flex;
+    width: 80%;
+    margin: 0% 10%;
+
+
+
+}
+
+.box-one {
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.box-two {
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.box-three {
+    padding: 10px;
+    border-radius: 10px;
+    background: #FFF4D6;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
