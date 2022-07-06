@@ -25,6 +25,8 @@ body {
 .display p {
     color: #fff;
     text-align: center;
+    font-weight: bold;
+
 }
 
 .display a {
@@ -34,6 +36,7 @@ body {
     padding: 10px;
     font-weight: bold;
     border-radius: 5px;
+    margin-top: 10%;
 
 }
 
@@ -77,7 +80,7 @@ body {
     border: 2px solid saddlebrown;
 }
 
-input {
+.donate-today input {
     border-top: none;
     border-left: none;
     border-right: none;
@@ -103,42 +106,49 @@ input {
 
 .donate-plan p {
     color: #707070;
+
 }
 
 .plan-box {
     display: flex;
-    width: 80%;
-    margin: 0% 10%;
+    width: 75%;
+    margin-left: 13%;
+
 
 
 
 }
 
 .box-one {
+    width: 25%;
     padding: 10px;
     border-radius: 10px;
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 9%;
+
+
 }
 
 .box-two {
+    width: 25%;
     padding: 10px;
     border-radius: 10px;
     background: rgba(255, 89, 89, 0.1);
     border-radius: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 9%;
+    margin-right: 15;
+
 }
 
 .box-three {
+    width: 25%;
     padding: 10px;
     border-radius: 10px;
     background: #FFF4D6;
     border-radius: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
+
+
 }
 
 .help-them {
@@ -148,6 +158,83 @@ input {
 
 .part {
     width: 50%;
-    padding-left: 5%;
+    padding: 8% 13%;
+    text-align: justify;
 
+
+
+}
+
+#part1 {
+    margin-left: -15%;
+
+}
+
+.part img {
+    border-radius: 5px;
+}
+
+.part p {
+    margin-bottom: 20px;
+}
+
+
+.part a {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #FF5959;
+    color: #fff;
+    padding: 10px;
+    font: bold;
+
+
+}
+
+.Get-my-update {
+    text-align: center;
+    padding: 20px;
+}
+
+.subscribe-box {
+    background: lightpink;
+    padding: 20px;
+    width: 35%;
+    margin-left: 32%;
+    margin-bottom: 10%;
+
+
+
+
+}
+
+.subscribe-box input {
+    padding: 7px 10px;
+    border: none;
+}
+
+.subscribe-box span {
+    color: #fff;
+    background: #FF5959;
+    padding: 3px 5px;
+    border: none;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 10px;
+    color: aliceblue;
+
+
+}
+
+footer h2 {
+    color: #FF5959;
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 5px;
 }
