@@ -6,7 +6,7 @@ body {
 }
 
 .flexible {
-    background-image: url(/images/bdflood.jpg);
+    background-image: url(images/bdflood.jpg);
     background-size: cover;
     background-position: 30%
 }
