@@ -190,6 +190,34 @@ body {
 
 }
 
+.category {
+    display: flex;
+    margin: 5%;
+    margin-left: 13%;
+    padding: 10px;
+
+}
+
+.category p {
+    text-align: justify;
+    width: 65%;
+
+}
+
+.category a {
+    text-decoration: none;
+    background-color: #FFCD05;
+    color: #0B0D17;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: "Oswald", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2em;
+
+}
+
+
 .Get-my-update {
     text-align: center;
     padding: 20px;
@@ -219,6 +247,9 @@ body {
     border: none;
 
 }
+
+
+
 
 footer {
     text-align: center;
